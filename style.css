@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap');
+
+:root {
+    --color-green: #50fa7b;
+    --color-purple: #7159c1;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    background: #282a36;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+header {
+    padding: 32px;
+    border-bottom: 1px solid #333;
+    background: rgba(0, 0, 0, 0.1);
+}
+.links {
+    text-align: center;
+}
+.links a{
+    color: white;
+    font-size: 18px ;
+    line-height: 28px;
+    margin: 0 16px;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+.links a:hover{
+    color: var(--color-green);
+    transition: 200ms;
+}
+
+#wrapper{
+    text-align: center;
+    margin-top: 1px;
+    margin-bottom: 30px;
+    
+}
+
+#wrapper img{
+
+    border-radius: 50%;
+    border: 5px solid var(--color-green);
+    margin-bottom: 32px;
+    margin-top: 50px;
+    height: 300px;
+
+}
+
+#wrapper h1{
+    margin-top: 30px;
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: bold;
+}
+
+#wrapper h2{
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: normal;
+    margin-top: 8px;
+    opacity: 0.8;
+
+}
+
+#wrapper p{
+    max-width: 500px;
+    margin: 60px auto;
+    font-size: 30px;
+    line-height: 34px;
+
+}
+
+#wrapper p a {
+    color: var(--color-green);
+}
+
+#links-footer a{
+    border-bottom: 1px solid var(--color-green);
+}
+
+/*====== CARDS =====*/
+
+.cards{
+    max-width: 80%;
+    margin: 0 auto 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    
+}
+
+.card{
+    background-color: var(--color-purple);
+    
+}
+
+.card_image-container img{
+    width: 100%;
+}
+
+.card_content,
+.card_info{
+    padding: 24px;
+}
+
+.card_info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.card_price{
+    background-color: var(--color-purple);
+    filter: brightness(90%);
+    padding: 5px 20px;
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+
+/*=====================================SOBRE===========================================*/
+
+
+:root {
+    --corRocket: #7159c1;
+  }
+  
+  *{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+  
+
+  
+  body{
+    background: #282a36;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    
+  }
+  
+  #sectionsobre header{
+    padding: 30px;
+    text-align: center;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2) ;
+  }
+  
+  #sectionsobre header div a{
+    padding: 30px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  #sectionsobre header div a:hover{
+    color: var(--corRocket);
+  }
+  
+  #sectionsobre #logo{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  #sectionsobre #logo img{
+    border: 3px solid #fff;
+    border-radius: 50%;
+  }
+  
+  #sectionsobre #logo h1{
+    font-size: 50px;
+    margin-top: 20px;
+  }
+  
+  #sectionsobre #logo p{
+    width:  700px;
+    margin: 30px auto;
+  }
+  
+  #sectionsobre #tecno {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #sectionsobre #tecno h3{
+    margin-bottom: 10px;
+  }
+  
+  #sectionsobre #tecno ul li {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 15px;
+  }
+  
+  #sectionsobre #links-sociais{
+    margin: 50px auto ;
+    text-align: center;
+    
+  }
+  
+  #sectionsobre #links-sociais ul li{
+    font-size: 20px;
+    display: inline-block;
+    
+  }
+  
+  #sectionsobre #links-sociais ul li a{
+    text-decoration: none;
+    color: white;
+    margin: 0 18px;
+    font-weight: 600;
+    
+  }
+  
+  #sectionsobre #links-sociais ul li a i{
+    font-size: 35px;
+    margin-right: 10px;
+  }
+  
+  #sectionsobre #links-sociais ul li a:hover{
+    color: var(--corRocket);
+    transition: color  500ms;
+  }
+  
+  /* == conteudo == */
+  
+  #sectionsobre h1{
+    text-align: center;
+    margin: 50px auto;
+    font-size: 40px;
+  }
+  
+  #sectionsobre .cardstack{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  
+  }
+  
+  #sectionsobre .cardbootcamp{
+    max-height: inherit;
+    
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+  
+    position: relative;
+    border-radius: 8px;
+    border: 3px solid #7159c1;
+  
+    cursor: pointer;
+  }
+  
+  #sectionsobre .cardbootcamp:hover{
+    border: 3px solid rgba(113, 89, 193, 0.4);
+    box-shadow: 0 0 25px var(--corRocket);
+    background-color: #c6a0f70a;
+    transition: box-shadow 600ms;
+  }
+  
+  #sectionsobre .cardbootcamp > span{
+    position: unset;
+    margin: 70px auto;
+    border: 3px solid var(--corRocket);
+    color: #fff;
+    font-size: 20px;
+    font-weight: bolder;
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  #sectionsobre .cardbootcamp .logo{
+    margin-bottom: 50px;
+  }
+  
+  #sectionsobre .cardstack .logo img{
+    max-width: 90%;
+  }
+  
+  #sectionsobre .cardstack .msg{
+    font-size: 15px;
+  }
+  
+  #sectionsobre .msg span{
+    font-weight: 600;
+    color: var(--corRocket);
+  }
+  
+  #sectionsobre .info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  
+  #sectionsobre .info .valor{
+    background-color: var(--corRocket);
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 700;
+    width: 100px;
+    margin: 0 auto;
+  }
+  
+  /*== modal == */
+  
+  #sectionsobre .modal_over {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  #sectionsobre .modal{
+    background-color: white;
+    width: 90%;
+    height: 90%;
+    margin: 5vh auto;
+    position: relative;
+    transition: width 200ms;
+  }
+  
+  #sectionsobre .max-m{
+    width: 60%;
+  }
+  
+  #sectionsobre .close-modal,
+  #sectionsobre .ampliar{
+    color: black;
+    position: absolute;
+    right: 0;
+    margin-right: 8px;
+    margin-top: 8px;
+    cursor: pointer;
+  }
+  
+  #sectionsobre .ampliar{
+    margin-right: 32px;
+  }
+  
+  #sectionsobre .ampliar {
+    color: black;
+  }
+
+ 
+  
+  /* modal ative*/
+  
+  #sectionsobre .active{
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  /*== iframe == */
+  
+  #sectionsobre iframe{
+    width: 100%;
+    height: 85%;
+    margin-top: 5vh;
+    overflow: hidden;
+  }
+
+  
