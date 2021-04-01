@@ -1,9 +1,9 @@
-/* chama os a box do html para ser manibulado */
+/* chama a box do html para ser manibulado */
 const modalOver = document.querySelector(".modal_over")
 const cards = document.querySelectorAll(".cardbootcamp")
 const modal = document.querySelector(".modal")
 
-/* adicionar um evendo ards*/;
+/* adicionar um evento*/;
 for(let card of cards){
   card.addEventListener("click", function(){
     const id = card.getAttribute("id")
@@ -17,7 +17,9 @@ for(let card of cards){
       document.querySelector(".ampliar").addEventListener("click", function(){
         modal.classList.toggle("max-m")
       })
-    }else{
+    }
+    
+    else{
       modal.classList.remove("max-m")
     }
     
